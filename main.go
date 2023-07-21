@@ -1,6 +1,9 @@
 package ejdertest
 
-import "log"
+import (
+	"fmt"
+	"log"
+)
 
 func DB() {
 	log.Println("Hello DB")
@@ -12,4 +15,8 @@ func Tool() {
 
 func Bool() {
 	log.Println("Bool is TRUE")
+}
+
+func Cool() {
+	fmt.Println("Winter is coming")
 }
