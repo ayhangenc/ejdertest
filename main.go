@@ -9,3 +9,7 @@ func DB() {
 func Tool() {
 	log.Println("Tool is here!")
 }
+
+func Bool() {
+	log.Println("Bool is TRUE")
+}
